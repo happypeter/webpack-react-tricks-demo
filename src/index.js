@@ -1,8 +1,6 @@
-class Bar {
-  doStuff() {
-    console.log('stuff');
-  }
-}
+import i from './a';
+import { j, k } from './a';
 
-var b = new Bar();
-b.doStuff()
+console.log(i);
+console.log(j);
+console.log(k);
