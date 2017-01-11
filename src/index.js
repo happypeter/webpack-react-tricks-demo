@@ -1,6 +1,5 @@
-import i from './a';
-import { j, k } from './a';
+import React from 'react';
+import ReactDom from 'react-dom';
+import App from './App';
 
-console.log(i);
-console.log(j);
-console.log(k);
+ReactDom.render(<App />, document.getElementById('app'));
